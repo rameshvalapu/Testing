@@ -1,0 +1,50 @@
+
+SSH 
+
+1.private key  id_rsa
+2.public key   id_rsa.pub
+
+ssh-keygen
+
+Algoritham
+
+1.RSA
+2.DSA
+
+ssh-keygen -t DSA
+
+/root/.ssh
+/home/ramesh/.ssh
+
+
+
+ssh-cpoy-id
+ssh-copy-id 10.135.3.29
+
+
+Diff types of users
+
+system user
+application user
+user-defined user
+
+/etc/passwd
+/etc/shadow
+
+/etc/gropus
+/etc/gshadow
+
+user   u
+group  g 
+others o
+
+chmod 755 file
+chmod g+x file  this is for group execute permission
+chmod -R 755 dir/dir/file
+
+      user:group
+chown root:ramesh file
+chown root:	  file  for file
+chown -R root: dir/dir/file   for same ownership
+
+
