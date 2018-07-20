@@ -1,5 +1,4 @@
 to list the cron entries
-newly added line by Ramesh
 
 $crontab -l
 
