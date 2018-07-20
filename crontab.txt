@@ -1,4 +1,8 @@
 to list the cron entries
+<<<<<<< HEAD
+=======
+newly added line by Ramesh on 20072018
+>>>>>>> parent of 1c2fa83... Revert "modified on 20072018"
 
 $crontab -l
 
